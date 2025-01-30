@@ -1,0 +1,150 @@
+html{
+	margin: 0px;
+	scroll-behavior: smooth;
+}
+
+body{
+	margin: 0px;
+	font-family: "Roboto",system-ui, Arial, sans-serif;
+	font-size: 16px; 
+	background-color: whitesmoke;
+}
+
+@font-face{
+  font-family: myFirstFont;
+  src: url(LifeSavers-Regular.ttf);
+}
+
+header{
+	background-color: #1A374D;
+}
+.naslov{
+	font-size: 2em;
+	letter-spacing: 2px;
+	padding: 12px;
+	/*font-family: 'Courier New', monospace;*/
+	font-family: myFirstFont;
+	color: whitesmoke;
+}
+
+
+.glavna{
+	font-weight: 600;
+	letter-spacing: 1px;
+	padding: 8px;
+	font-size: 14px;
+}
+
+.page-container{
+  position: relative;
+  min-height: 90vh;
+}
+main{
+	padding-bottom: 3rem;
+}
+
+footer{
+	position: absolute;
+  bottom: 0;
+  width: 100%;
+
+  padding: 1rem;
+  /*height: 3rem;   */
+	background-color: #1A374D;
+	color: white;
+}
+
+
+section{
+	margin-top: 3em;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+
+.red{
+	width: 450px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+}
+#stalan{
+	display: none;
+	margin-left: auto;
+	margin-right: auto;
+	width: 530px;
+	height: 60px;
+}
+#stalan button{
+		margin: 0;
+		margin-bottom: 10px;
+		padding: 0;
+}
+p{
+	margin-top: 1.4em;
+	text-align: justify;
+}
+h2{
+	font-size: 26px; 
+    line-height: 20px;
+    padding: 10px;
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.6);
+}
+h3{
+	font-size: 20px; 
+    line-height: 16px;
+    padding: 10px;
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+@media (max-width: 400px){
+	#stalan {
+		width: 280px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#stalan button>img{
+		width: 40px;
+		height: auto;
+}
+	.red{
+		width: 300px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.red button>img{
+		width: 40px;
+		height: auto;
+	}
+	.red>img{
+		width: 16px;
+		height: auto;
+	}
+}
+
+@media (min-width: 401px) and (max-width: 600px){
+	#stalan {
+		width: 360px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#stalan button>img{
+		width: 50px;
+		height: auto;
+}
+	.red{
+		width: 360px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.red button>img{
+		width: 50px;
+		height: auto;
+	}
+	.red>img{
+		width: 20px;
+		height: auto;
+	}
+}
